@@ -23,9 +23,9 @@
     padding: 12px 36px;
 }
 
-body section{
+/* body section{
     margin: 106px 150px 0px; 
-}
+} */
 
 /* nav */
 nav{
@@ -85,8 +85,8 @@ header{
     max-width: 1140px;
     margin-top: 106px;
     gap: 220px;
-    margin-left: 140px;
-    margin-right: 160px;
+    margin: 0 auto;
+    margin-top: 106px;
 }
 
 .action-title{
@@ -99,6 +99,7 @@ header{
     font-weight: 100;
     font-size: 24px;
     color: #252432;
+    width: 100%;
 }
 
 .action-image{
@@ -136,7 +137,6 @@ header{
     display: flex;
     gap: 158px;
     justify-content: center;
-    
 }
 
 .user{
@@ -154,6 +154,8 @@ header{
     font-weight: bold;
     font-size: 42px;
     text-align: center;
+    margin-top: 137px;
+    margin-bottom: 50px;
 }
 .card p{
     width: 320px;
@@ -171,6 +173,7 @@ header{
 .card-container{
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .review{
     display: flex;
@@ -194,4 +197,131 @@ header{
     margin-top: 0px;
     color: #B3B3B3;
     font-size: 1rem;
+}
+
+/* focus */
+.focus{
+    background-color: rgba(250, 250, 250, 1);
+    padding: 71px 150px;
+    border-radius: 14px;
+    margin: 137px 150px 92px;
+}
+
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.focus button{
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+
+.focus img{
+    display: block;
+    margin: 0 auto;
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    background-color: rgba(245, 248, 255, 1);
+}
+
+.contact-tile{
+    font-weight: bold;
+    font-size: 97px;
+    width: 528px;
+    height: 232px;
+}
+
+.contact-info label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    font-size: 0.75rem;
+}
+
+.contact-info input{
+    margin-bottom: 19px;
+    border: none;
+    padding: 20px 271px 20px 32px;
+    border: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.contact-info textarea{
+    margin-bottom: 19px;
+    padding-left: 32px;
+    padding-top: 20px;
+    width: 92%;
+    height: 135px;
+    border: none;
+    font-size: 20;
+    border-radius: 10px;
+
+}
+
+.contact-info button{
+    display: block;
+    width: 100%;
+}
+
+/* footer */
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 428px;
+}
+.footer-title{
+    font-weight: 900;
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.footer-message{
+    color: rgba(137, 135, 161, 1);
+    font-size: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+    width: 531px;
+    margin: 0 auto;
+    margin-bottom: 20px;    
+}
+
+.footer-links a{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 48px;
+    text-decoration: none;
+    color: #8987A1;
+}
+
+
+.footer-links{
+    align-items: center;
 }
