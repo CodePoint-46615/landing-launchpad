@@ -23,9 +23,11 @@
     padding: 12px 36px;
 }
 
-/* body section{
-    margin: 106px 150px 0px; 
-} */
+.primary-btn:hover{
+    background-color:aqua;
+    cursor: pointer;
+    color: black;
+}
 
 /* nav */
 nav{
