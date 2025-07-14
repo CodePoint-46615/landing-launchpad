@@ -127,7 +127,7 @@ header{
 }
 
 .user h5{
-    font-weight: 100px;
+    font-weight: 400px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0px;
@@ -322,6 +322,10 @@ header{
 }
 
 
-.footer-links{
+.footer-links {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
+
