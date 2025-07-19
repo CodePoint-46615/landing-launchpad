@@ -331,3 +331,25 @@ header{
     margin-top: 20px;
 }
 
+/* responsive UI */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .action,
+    .user-details,
+    .card-container
+    {
+        flex-wrap: wrap;
+        gap: 30px;      
+    }
+    .action-image{
+        width: 100%;
+    }
+    
+    .user{
+        background-color: white;
+        height: 100%;
+    }
+}
